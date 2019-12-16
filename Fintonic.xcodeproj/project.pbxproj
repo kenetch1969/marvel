@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		424E95FD23A80A4800BD077F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E95FC23A80A4800BD077F /* AppDelegate.swift */; };
+		424E95FF23A80A4800BD077F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E95FE23A80A4800BD077F /* SceneDelegate.swift */; };
+		424E960123A80A4800BD077F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E960023A80A4800BD077F /* ViewController.swift */; };
+		424E960423A80A4800BD077F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424E960223A80A4800BD077F /* Main.storyboard */; };
+		424E960723A80A4800BD077F /* Fintonic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 424E960523A80A4800BD077F /* Fintonic.xcdatamodeld */; };
+		424E960923A80A6400BD077F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424E960823A80A6400BD077F /* Assets.xcassets */; };
+		424E960C23A80A6400BD077F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424E960A23A80A6400BD077F /* LaunchScreen.storyboard */; };
+		424E961723A80A6400BD077F /* FintonicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E961623A80A6400BD077F /* FintonicTests.swift */; };
+		424E962223A80A6400BD077F /* FintonicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E962123A80A6400BD077F /* FintonicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		424E961323A80A6400BD077F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 424E95F123A80A4800BD077F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 424E95F823A80A4800BD077F;
+			remoteInfo = Fintonic;
+		};
+		424E961E23A80A6400BD077F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 424E95F123A80A4800BD077F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 424E95F823A80A4800BD077F;
+			remoteInfo = Fintonic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		424E95F923A80A4800BD077F /* Fintonic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fintonic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		424E95FC23A80A4800BD077F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		424E95FE23A80A4800BD077F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		424E960023A80A4800BD077F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		424E960323A80A4800BD077F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		424E960623A80A4800BD077F /* Fintonic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fintonic.xcdatamodel; sourceTree = "<group>"; };
+		424E960823A80A6400BD077F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		424E960B23A80A6400BD077F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		424E960D23A80A6400BD077F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		424E961223A80A6400BD077F /* FintonicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FintonicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		424E961623A80A6400BD077F /* FintonicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintonicTests.swift; sourceTree = "<group>"; };
+		424E961823A80A6400BD077F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		424E961D23A80A6400BD077F /* FintonicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FintonicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		424E962123A80A6400BD077F /* FintonicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintonicUITests.swift; sourceTree = "<group>"; };
+		424E962323A80A6400BD077F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		424E95F623A80A4800BD077F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424E960F23A80A6400BD077F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424E961A23A80A6400BD077F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		424E95F023A80A4800BD077F = {
+			isa = PBXGroup;
+			children = (
+				424E95FB23A80A4800BD077F /* Fintonic */,
+				424E961523A80A6400BD077F /* FintonicTests */,
+				424E962023A80A6400BD077F /* FintonicUITests */,
+				424E95FA23A80A4800BD077F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		424E95FA23A80A4800BD077F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				424E95F923A80A4800BD077F /* Fintonic.app */,
+				424E961223A80A6400BD077F /* FintonicTests.xctest */,
+				424E961D23A80A6400BD077F /* FintonicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		424E95FB23A80A4800BD077F /* Fintonic */ = {
+			isa = PBXGroup;
+			children = (
+				424E95FC23A80A4800BD077F /* AppDelegate.swift */,
+				424E95FE23A80A4800BD077F /* SceneDelegate.swift */,
+				424E960023A80A4800BD077F /* ViewController.swift */,
+				424E960223A80A4800BD077F /* Main.storyboard */,
+				424E960823A80A6400BD077F /* Assets.xcassets */,
+				424E960A23A80A6400BD077F /* LaunchScreen.storyboard */,
+				424E960D23A80A6400BD077F /* Info.plist */,
+				424E960523A80A4800BD077F /* Fintonic.xcdatamodeld */,
+			);
+			path = Fintonic;
+			sourceTree = "<group>";
+		};
+		424E961523A80A6400BD077F /* FintonicTests */ = {
+			isa = PBXGroup;
+			children = (
+				424E961623A80A6400BD077F /* FintonicTests.swift */,
+				424E961823A80A6400BD077F /* Info.plist */,
+			);
+			path = FintonicTests;
+			sourceTree = "<group>";
+		};
+		424E962023A80A6400BD077F /* FintonicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				424E962123A80A6400BD077F /* FintonicUITests.swift */,
+				424E962323A80A6400BD077F /* Info.plist */,
+			);
+			path = FintonicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		424E95F823A80A4800BD077F /* Fintonic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424E962623A80A6400BD077F /* Build configuration list for PBXNativeTarget "Fintonic" */;
+			buildPhases = (
+				424E95F523A80A4800BD077F /* Sources */,
+				424E95F623A80A4800BD077F /* Frameworks */,
+				424E95F723A80A4800BD077F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fintonic;
+			productName = Fintonic;
+			productReference = 424E95F923A80A4800BD077F /* Fintonic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		424E961123A80A6400BD077F /* FintonicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424E962923A80A6400BD077F /* Build configuration list for PBXNativeTarget "FintonicTests" */;
+			buildPhases = (
+				424E960E23A80A6400BD077F /* Sources */,
+				424E960F23A80A6400BD077F /* Frameworks */,
+				424E961023A80A6400BD077F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				424E961423A80A6400BD077F /* PBXTargetDependency */,
+			);
+			name = FintonicTests;
+			productName = FintonicTests;
+			productReference = 424E961223A80A6400BD077F /* FintonicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		424E961C23A80A6400BD077F /* FintonicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424E962C23A80A6400BD077F /* Build configuration list for PBXNativeTarget "FintonicUITests" */;
+			buildPhases = (
+				424E961923A80A6400BD077F /* Sources */,
+				424E961A23A80A6400BD077F /* Frameworks */,
+				424E961B23A80A6400BD077F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				424E961F23A80A6400BD077F /* PBXTargetDependency */,
+			);
+			name = FintonicUITests;
+			productName = FintonicUITests;
+			productReference = 424E961D23A80A6400BD077F /* FintonicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		424E95F123A80A4800BD077F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Juan Gerardo Cruz";
+				TargetAttributes = {
+					424E95F823A80A4800BD077F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					424E961123A80A6400BD077F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 424E95F823A80A4800BD077F;
+					};
+					424E961C23A80A6400BD077F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 424E95F823A80A4800BD077F;
+					};
+				};
+			};
+			buildConfigurationList = 424E95F423A80A4800BD077F /* Build configuration list for PBXProject "Fintonic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 424E95F023A80A4800BD077F;
+			productRefGroup = 424E95FA23A80A4800BD077F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				424E95F823A80A4800BD077F /* Fintonic */,
+				424E961123A80A6400BD077F /* FintonicTests */,
+				424E961C23A80A6400BD077F /* FintonicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		424E95F723A80A4800BD077F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424E960C23A80A6400BD077F /* LaunchScreen.storyboard in Resources */,
+				424E960923A80A6400BD077F /* Assets.xcassets in Resources */,
+				424E960423A80A4800BD077F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424E961023A80A6400BD077F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424E961B23A80A6400BD077F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		424E95F523A80A4800BD077F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424E960123A80A4800BD077F /* ViewController.swift in Sources */,
+				424E95FD23A80A4800BD077F /* AppDelegate.swift in Sources */,
+				424E95FF23A80A4800BD077F /* SceneDelegate.swift in Sources */,
+				424E960723A80A4800BD077F /* Fintonic.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424E960E23A80A6400BD077F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424E961723A80A6400BD077F /* FintonicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424E961923A80A6400BD077F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424E962223A80A6400BD077F /* FintonicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		424E961423A80A6400BD077F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 424E95F823A80A4800BD077F /* Fintonic */;
+			targetProxy = 424E961323A80A6400BD077F /* PBXContainerItemProxy */;
+		};
+		424E961F23A80A6400BD077F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 424E95F823A80A4800BD077F /* Fintonic */;
+			targetProxy = 424E961E23A80A6400BD077F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		424E960223A80A4800BD077F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				424E960323A80A4800BD077F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		424E960A23A80A6400BD077F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				424E960B23A80A6400BD077F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		424E962423A80A6400BD077F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		424E962523A80A6400BD077F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		424E962723A80A6400BD077F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C6BLPLVF5;
+				INFOPLIST_FILE = Fintonic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inventaapps.Fintonic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		424E962823A80A6400BD077F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C6BLPLVF5;
+				INFOPLIST_FILE = Fintonic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inventaapps.Fintonic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		424E962A23A80A6400BD077F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C6BLPLVF5;
+				INFOPLIST_FILE = FintonicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inventaapps.FintonicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fintonic.app/Fintonic";
+			};
+			name = Debug;
+		};
+		424E962B23A80A6400BD077F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C6BLPLVF5;
+				INFOPLIST_FILE = FintonicTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inventaapps.FintonicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fintonic.app/Fintonic";
+			};
+			name = Release;
+		};
+		424E962D23A80A6400BD077F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C6BLPLVF5;
+				INFOPLIST_FILE = FintonicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inventaapps.FintonicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fintonic;
+			};
+			name = Debug;
+		};
+		424E962E23A80A6400BD077F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C6BLPLVF5;
+				INFOPLIST_FILE = FintonicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inventaapps.FintonicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fintonic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		424E95F423A80A4800BD077F /* Build configuration list for PBXProject "Fintonic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424E962423A80A6400BD077F /* Debug */,
+				424E962523A80A6400BD077F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424E962623A80A6400BD077F /* Build configuration list for PBXNativeTarget "Fintonic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424E962723A80A6400BD077F /* Debug */,
+				424E962823A80A6400BD077F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424E962923A80A6400BD077F /* Build configuration list for PBXNativeTarget "FintonicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424E962A23A80A6400BD077F /* Debug */,
+				424E962B23A80A6400BD077F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424E962C23A80A6400BD077F /* Build configuration list for PBXNativeTarget "FintonicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424E962D23A80A6400BD077F /* Debug */,
+				424E962E23A80A6400BD077F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		424E960523A80A4800BD077F /* Fintonic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				424E960623A80A4800BD077F /* Fintonic.xcdatamodel */,
+			);
+			currentVersion = 424E960623A80A4800BD077F /* Fintonic.xcdatamodel */;
+			path = Fintonic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 424E95F123A80A4800BD077F /* Project object */;
+}
