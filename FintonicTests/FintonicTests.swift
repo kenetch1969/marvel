@@ -10,25 +10,49 @@ import XCTest
 @testable import Fintonic
 
 class FintonicTests: XCTestCase {
+    
+    var session: URLSession!
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        session = URLSession(configuration: .default)
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        session = nil
+        super.tearDown()
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+    func testMarvelConnection() {
+      // given
+      guard let url = URL(string: "https://api.myjson.com/bins/bvyob") else{ return }
+      let promise = expectation(description: "Completion handler invoked")
+      var statusCode: Int?
+      var responseError: Error?
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+      // when
+      let dataTask = session.dataTask(with: url) { data, response, error in
+        statusCode = (response as? HTTPURLResponse)?.statusCode
+        responseError = error
+        promise.fulfill()
+      }
+      dataTask.resume()
+      wait(for: [promise], timeout: 5)
+
+      // then
+      XCTAssertNil(responseError)
+      XCTAssertEqual(statusCode, 200)
+    }
+    
+    func testMarvelCompletion () {
+        let marvelAPI = MarvelUrlAPI()
+        let promise = expectation(description: "Completion handler invoked")
+        marvelAPI.getMarvelsHeroes { (heroes) in
+            print(heroes.superheroes[0].name)
+            print(heroes.superheroes[0].photo)
+            promise.fulfill()
         }
+        wait(for: [promise], timeout: 5)
     }
-
 }

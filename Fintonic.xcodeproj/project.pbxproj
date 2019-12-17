@@ -16,6 +16,13 @@
 		424E960C23A80A6400BD077F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424E960A23A80A6400BD077F /* LaunchScreen.storyboard */; };
 		424E961723A80A6400BD077F /* FintonicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E961623A80A6400BD077F /* FintonicTests.swift */; };
 		424E962223A80A6400BD077F /* FintonicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E962123A80A6400BD077F /* FintonicUITests.swift */; };
+		424E963323A80B8600BD077F /* Marvels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E963223A80B8600BD077F /* Marvels.swift */; };
+		424E963523A80EAE00BD077F /* MarvelsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E963423A80EAE00BD077F /* MarvelsCollectionViewController.swift */; };
+		424E963723A80ED000BD077F /* MarvelsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E963623A80ED000BD077F /* MarvelsCollectionViewCell.swift */; };
+		424E963923A8245E00BD077F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E963823A8245E00BD077F /* DetailsViewController.swift */; };
+		424E963C23A8300500BD077F /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E963B23A8300500BD077F /* UIImageView+extension.swift */; };
+		424E963E23A844B100BD077F /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E963D23A844B100BD077F /* BasePresenter.swift */; };
+		424E964023A84F0D00BD077F /* ShowMarvelPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E963F23A84F0D00BD077F /* ShowMarvelPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		424E961D23A80A6400BD077F /* FintonicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FintonicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		424E962123A80A6400BD077F /* FintonicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FintonicUITests.swift; sourceTree = "<group>"; };
 		424E962323A80A6400BD077F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		424E963223A80B8600BD077F /* Marvels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvels.swift; sourceTree = "<group>"; };
+		424E963423A80EAE00BD077F /* MarvelsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelsCollectionViewController.swift; sourceTree = "<group>"; };
+		424E963623A80ED000BD077F /* MarvelsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelsCollectionViewCell.swift; sourceTree = "<group>"; };
+		424E963823A8245E00BD077F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		424E963B23A8300500BD077F /* UIImageView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+extension.swift"; sourceTree = "<group>"; };
+		424E963D23A844B100BD077F /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		424E963F23A84F0D00BD077F /* ShowMarvelPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMarvelPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,10 @@
 		424E95FB23A80A4800BD077F /* Fintonic */ = {
 			isa = PBXGroup;
 			children = (
+				424E963A23A82FB500BD077F /* Extension */,
+				424E963123A80B5D00BD077F /* Model */,
+				424E963023A80B4700BD077F /* Presenter */,
+				424E962F23A80B3A00BD077F /* View */,
 				424E95FC23A80A4800BD077F /* AppDelegate.swift */,
 				424E95FE23A80A4800BD077F /* SceneDelegate.swift */,
 				424E960023A80A4800BD077F /* ViewController.swift */,
@@ -129,6 +147,41 @@
 				424E962323A80A6400BD077F /* Info.plist */,
 			);
 			path = FintonicUITests;
+			sourceTree = "<group>";
+		};
+		424E962F23A80B3A00BD077F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				424E963423A80EAE00BD077F /* MarvelsCollectionViewController.swift */,
+				424E963623A80ED000BD077F /* MarvelsCollectionViewCell.swift */,
+				424E963823A8245E00BD077F /* DetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		424E963023A80B4700BD077F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				424E963D23A844B100BD077F /* BasePresenter.swift */,
+				424E963F23A84F0D00BD077F /* ShowMarvelPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		424E963123A80B5D00BD077F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				424E963223A80B8600BD077F /* Marvels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		424E963A23A82FB500BD077F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				424E963B23A8300500BD077F /* UIImageView+extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +316,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				424E960123A80A4800BD077F /* ViewController.swift in Sources */,
+				424E963E23A844B100BD077F /* BasePresenter.swift in Sources */,
+				424E963C23A8300500BD077F /* UIImageView+extension.swift in Sources */,
+				424E963723A80ED000BD077F /* MarvelsCollectionViewCell.swift in Sources */,
+				424E963323A80B8600BD077F /* Marvels.swift in Sources */,
+				424E963923A8245E00BD077F /* DetailsViewController.swift in Sources */,
 				424E95FD23A80A4800BD077F /* AppDelegate.swift in Sources */,
 				424E95FF23A80A4800BD077F /* SceneDelegate.swift in Sources */,
+				424E964023A84F0D00BD077F /* ShowMarvelPresenter.swift in Sources */,
 				424E960723A80A4800BD077F /* Fintonic.xcdatamodeld in Sources */,
+				424E963523A80EAE00BD077F /* MarvelsCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +508,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.inventaapps.Fintonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,7 +526,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.inventaapps.Fintonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
