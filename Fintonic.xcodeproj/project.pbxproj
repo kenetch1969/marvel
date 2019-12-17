@@ -121,7 +121,6 @@
 				424E962F23A80B3A00BD077F /* View */,
 				424E95FC23A80A4800BD077F /* AppDelegate.swift */,
 				424E95FE23A80A4800BD077F /* SceneDelegate.swift */,
-				424E960023A80A4800BD077F /* ViewController.swift */,
 				424E960223A80A4800BD077F /* Main.storyboard */,
 				424E960823A80A6400BD077F /* Assets.xcassets */,
 				424E960A23A80A6400BD077F /* LaunchScreen.storyboard */,
@@ -152,6 +151,7 @@
 		424E962F23A80B3A00BD077F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				424E960023A80A4800BD077F /* ViewController.swift */,
 				424E963423A80EAE00BD077F /* MarvelsCollectionViewController.swift */,
 				424E963623A80ED000BD077F /* MarvelsCollectionViewCell.swift */,
 				424E963823A8245E00BD077F /* DetailsViewController.swift */,
