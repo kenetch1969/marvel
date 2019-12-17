@@ -55,4 +55,26 @@ class FintonicTests: XCTestCase {
         }
         wait(for: [promise], timeout: 5)
     }
+    
+    func testShowHeroes (){
+       let expec = expectation(description: "Recuperar marvel heroes")
+        let network = MarvelUrlAPI()
+        let presenter = ShowMarvelPresenter(model: network)
+        presenter.attachView(delegate: MockUIViewController(expectation: expec))
+        presenter.showHeroes()
+        wait(for: [expec], timeout: 3)
+    }
+}
+
+class MockUIViewController: ShowMarvelDelegate{
+    var expec: XCTestExpectation
+    init(expectation: XCTestExpectation) {
+        self.expec = expectation
+    }
+    func showProgress(){}
+    func hideProgress(){}
+    func setHeroes(_ heroes: SuperHeroes) {
+        XCTAssertNotNil(heroes, "Recuperacion exitosa")
+        self.expec.fulfill()
+    }
 }
